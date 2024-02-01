@@ -1,0 +1,18 @@
+# Folders
+build/
+
+# Compiler output
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.so
+*.a
+*.syso
+*.log
+*.map
+*.out
+*.err
+*.tmp
