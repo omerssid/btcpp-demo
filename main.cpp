@@ -26,7 +26,7 @@ int main()
     // You can use C++11 lambdas or std::bind
     factory.registerSimpleCondition("CheckBattery", [&](TreeNode &)
                                     { return CheckBattery(); });
-    // factory.registerSimpleCondition("CheckBattery", std::bind(CheckBattery));
+    factory.registerSimpleCondition("Backup", std::bind(Backup));
 
     // You can also create SimpleActionNodes using methods of a class
     TaskInterface task;
@@ -36,7 +36,7 @@ int main()
                                  { return task.close(); });
 
     // Trees are created at run-time
-    auto tree = factory.createTreeFromFile("./../basic_tree.xml");
+    auto tree = factory.createTreeFromFile("./../decorator_tree.xml");
 
     // To "execute" a Tree you need to "tick" it.
     // The tick is propagated to the children based on the logic of the tree.

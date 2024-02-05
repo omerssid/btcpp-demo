@@ -17,6 +17,8 @@ namespace MyNodes
             It MUST always return a NodeStatus, i.e. RUNNING, SUCCESS or FAILURE.
             */
             std::cout << "ApproachObject: " << this->name() << std::endl;
+            if (this->name() == "approach_object_failure")
+                return BT::NodeStatus::FAILURE;
             return BT::NodeStatus::SUCCESS;
         }
     };
@@ -25,6 +27,12 @@ namespace MyNodes
     BT::NodeStatus CheckBattery()
     {
         std::cout << "[ Battery: OK ]" << std::endl;
+        return BT::NodeStatus::SUCCESS;
+    }
+
+    BT::NodeStatus Backup()
+    {
+        std::cout << "[ApproachObject: Failed] Backing up..." << std::endl;
         return BT::NodeStatus::SUCCESS;
     }
 
