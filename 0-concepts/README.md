@@ -30,10 +30,10 @@ Let's expand on some of these concepts.
 ### 1. Nodes
 Behavior Trees consist of nodes, which are the building blocks of behavior. There are different types of nodes, each serving a specific purpose:
 
-    - **Root Node**: The entry point of the behavior tree.
-    - **Composite Nodes**: Nodes that contain other nodes and define how their children should be executed. Examples include sequence, selector, and parallel nodes.
-    - **Decorator Nodes**: Nodes that modify the behavior of their child nodes in some way, such as inverting their result or executing them conditionally.
-    - **Action Nodes**: Nodes that perform specific actions or behaviors.
+- **Root Node**: The entry point of the behavior tree.
+- **Composite Nodes**: Nodes that contain other nodes and define how their children should be executed. Examples include sequence, selector, and parallel nodes.
+- **Decorator Nodes**: Nodes that modify the behavior of their child nodes in some way, such as inverting their result or executing them conditionally.
+- **Action Nodes**: Nodes that perform specific actions or behaviors.
 
 ### 2. Control Flow
 The control flow of a behavior tree is determined by the type of composite nodes used and their configurations. The most common control flow patterns include sequential execution, parallel execution, and conditional branching.
@@ -44,9 +44,9 @@ Behavior Trees typically use a **tick-based** execution model, where the tree is
 ### 4. Node Status
 Nodes in a behavior tree can have one of the following statuses:
 
-    - **Success**: The node has completed its task successfully.
-    - **Failure**: The node has failed to complete its task.
-    - **Running**: The node is still in progress and needs more time to complete its task.
+- **Success**: The node has completed its task successfully.
+- **Failure**: The node has failed to complete its task.
+- **Running**: The node is still in progress and needs more time to complete its task.
 
 
 ## BehaviorTree.CPP Library

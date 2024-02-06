@@ -1,0 +1,10 @@
+ <root BTCPP_format="4" >
+     <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <StartRobot   name="start_robot"/>
+            <ExecuteTask1 name="Execute_Task_1"/>
+            <ExecuteTask1 name="Execute_Task_2"/>
+            <StopRobot   name="stop_robot"/>
+        </Sequence>
+     </BehaviorTree>
+ </root>

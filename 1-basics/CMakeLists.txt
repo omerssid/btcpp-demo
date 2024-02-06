@@ -1,6 +1,5 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.5.0)
-
-project(btcpp_demo)
+cmake_minimum_required(VERSION 3.10)
+project(btcpp_demo_1)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
