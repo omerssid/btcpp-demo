@@ -3,14 +3,7 @@ In this demo, we'll create a simple Behavior Tree that represents a basic sequen
 
 ## BT Design
 The behavior tree for this demo will consist of three Action nodes arranged in a sequence:
-```
-[Root]
-  |
-  └── [Sequence]
-        |
-        ├── [Action: Initialize]
-        |
-        ├── [Action: Execute Task 1]
-        |
-        └── [Action: Execute Task 2]
-```
+
+![Basic BT](bt.jpg "BT Design")
+
+**NOTE**: The order of execution is from left to right.

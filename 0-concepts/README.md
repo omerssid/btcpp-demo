@@ -6,6 +6,8 @@ Welcome to the BehaviorTree.CPP Demos! Before we dive into specific examples, le
 
 BehaviorTree.CPP is a powerful and flexible behavior tree library for C++. Before diving into the specifics of the library, it's important to understand some basic concepts related to behavior trees.
 
+![Basic BT](bt.jpg "A basic BT that uses a ControlNode of type Sequence.")
+
 ## What is a Behavior Tree?
 
 A Behavior Tree is a graphical model used to represent the behavior of entities in a structured and modular way. It is commonly used in robotics, artificial intelligence, and game development to define the decision-making process of agents.
