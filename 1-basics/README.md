@@ -4,6 +4,6 @@ In this demo, we'll create a simple Behavior Tree that represents a basic sequen
 ## BT Design
 The behavior tree for this demo will consist of three Action nodes arranged in a sequence:
 
-![Basic BT](bt.jpg "BT Design")
+![Basic BT](../media/bt.jpg "BT Design")
 
 **NOTE**: The order of execution is from left to right.

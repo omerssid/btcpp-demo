@@ -8,7 +8,7 @@ using BT::TreeNode;
 There are 3 ways to create a node:
     1. Node Class (inheritance)
     2. Function Pointer
-    3. Custom CLass (without inheritance)
+    3. Custom Class (without inheritance)
 */
 
 // #1st method: create our own action node

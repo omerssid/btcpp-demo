@@ -6,7 +6,7 @@ Welcome to the BehaviorTree.CPP Demos! Before we dive into specific examples, le
 
 BehaviorTree.CPP is a powerful and flexible behavior tree library for C++. Before diving into the specifics of the library, it's important to understand some basic concepts related to behavior trees.
 
-![Basic BT](bt.jpg "A basic BT that uses a ControlNode of type Sequence.")
+![Basic BT](../media/bt.jpg "A basic BT that uses a ControlNode of type Sequence.")
 
 ## What is a Behavior Tree?
 
@@ -55,6 +55,7 @@ Nodes in a behavior tree can have one of the following statuses:
 BehaviorTree.CPP is a C++ library that provides a framework for creating and executing behavior trees. It includes a set of predefined node types and a flexible architecture for custom nodes.
 
 
-## Getting Started with BehaviorTree.CPP
-
-Now that you have a basic understanding of behavior trees and the concepts used in BehaviorTree.CPP, you're ready to start building your own behavior trees! Check out the [official documentation](https://www.behaviortree.dev/docs/intro) for more information on how to get started or just continue on to the next demo where we implement a basic BT!.
+## Resources
+- [BT.CPP docs](https://www.behaviortree.dev/docs/intro).
+- [Introduction to Behavior Trees (Article)](https://roboticseabass.com/2021/05/08/introduction-to-behavior-trees).
+- [Behavior Trees in Robotics and AI: An Introduction (An amazing book about BTs)](https://arxiv.org/abs/1709.00084).
